@@ -26,7 +26,7 @@ body {
 }
 
 .best-score  {
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: space-around;
     margin-left: 50px;
@@ -67,4 +67,37 @@ body {
     background: #525053;
     margin: 4px;
     border-radius: 100%;
+}
+
+.restart {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* прозрачный черный цвет */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.restart__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 50px;
+    background-color: #000;
+    color: #FA0556;
+    border: 1px solid #ffa;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 700;
+    transition: background-color 0.4s ease;
+}
+
+.restart__button:hover {
+    background-color: #ffa; /* меняем цвет при наведении */
 }
