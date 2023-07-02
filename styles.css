@@ -101,3 +101,14 @@ body {
 .restart__button:hover {
     background-color: #ffa; /* меняем цвет при наведении */
 }
+
+.snake {
+    background-color: #A00034;
+    border-radius: 0;
+}
+
+.snake-head {
+    background-color: #FA0556;
+}
+
+
